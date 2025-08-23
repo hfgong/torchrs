@@ -43,6 +43,16 @@ def run_all_tests():
         print(f"   Data tests failed: {e}")
         return False
     
+    # Import and run end-to-end test
+    print("\n4. Running end-to-end MovieLens test...")
+    try:
+        from tests.test_movielens_end_to_end import test_movielens_end_to_end
+        test_movielens_end_to_end()
+        print("   End-to-end test passed!")
+    except Exception as e:
+        print(f"   End-to-end test failed: {e}")
+        return False
+    
     print("\nAll tests passed successfully!")
     return True
 
