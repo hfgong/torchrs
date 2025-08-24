@@ -86,7 +86,7 @@ The library includes comprehensive code documentation with detailed explanations
 - Recommendation system concepts and mathematical foundations
 - Practical usage patterns and best practices
 
-See our [code documentation improvements](torchrs/code_documentation_improvements.md) for details.
+See our [code documentation improvements](code_documentation_improvements.md) for details.
 
 ## Comparison with TensorFlow Recommenders
 
@@ -94,9 +94,8 @@ We've conducted a detailed comparison between TorchRS and TensorFlow Recommender
 
 ## Documentation
 
-- [API Reference](docs/api.md)
-- [Tutorials](docs/tutorials/)
-- [Migration Guide from TFRS](docs/migration.md)
+- [API Reference](torchrs/docs/api.md)
+- [Migration Guide from TFRS](torchrs/docs/migration.md)
 
 ## Examples
 

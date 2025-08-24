@@ -4,7 +4,7 @@ A PyTorch-based library for building recommendation systems, inspired by TensorF
 
 ## Repository Status
 
-This repository has been successfully pushed to GitHub at: https://github.com/hfgong/torchrs
+✅ **Successfully pushed to GitHub**: https://github.com/hfgong/torchrs
 
 ## What's Included
 
